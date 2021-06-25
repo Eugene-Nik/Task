@@ -12,9 +12,9 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 500px;
   max-width: 1170%;
-  margin: 0 auto;
+  margin-left: 20px;
 }
 
 .header {
@@ -46,8 +46,8 @@ fieldset {
 }
 
 .radio_1 {
-  width: 27%;
-  margin-top: 10px;
-  margin-bottom: 100px;
-  margin-left: 43px;
+    width: 77%;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: 5%;
 }

@@ -11,9 +11,6 @@
 
   <script src="index.js"></script>
 
-  <script>
-    
-  </script>
 
   <body>
     <div class="container">
@@ -21,8 +18,7 @@
         <div class="boxes">
           <div class="box">
             
-            <input id="check" placeholder="Number" tabindex="1" name="Number" type="number"/>
-            <button onclick="myFunction()">OK</button>
+            <input id="check" placeholder="Number" tabindex="1" name="Number" type="number" onChange="myFunction(this.value)"/>
 
           </div>
           <div class="radio">
@@ -163,29 +159,34 @@
         </div>             
             </fieldset>
           </div>
+
+          <div class="radio_1">
+            <fieldset>
+              <legend>Routing</legend>
+              <div>
+                <form>
+                  <label>
+                    <input type="radio" name="answer" value="Allowed" checked />
+                    Allowed
+                  </label>
+    
+                  <br>
+    
+                  <label>
+                    <input type="radio" name="answer" value="Not Allowed" />
+                    Not Allowed
+                  </label>
+                </form>
+              </div>
+        </div>
+        
           </div>
         </div>
+
+        
       </div>
 
-      <div class="radio_1">
-        <fieldset>
-          <legend>Routing</legend>
-          <div>
-            <form>
-              <label>
-                <input type="radio" name="answer" value="Allowed" checked />
-                Allowed
-              </label>
-
-              <br>
-
-              <label>
-                <input type="radio" name="answer" value="Not Allowed" />
-                Not Allowed
-              </label>
-            </form>
-          </div>
-    </div>
+      
 
 
 
